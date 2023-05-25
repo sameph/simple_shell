@@ -11,7 +11,7 @@ char **tokenizer(char *str)
 	char *token;
 	unsigned int i = 0;
 	const char separator[] = "\n\t\r ";
- 
+
 	if (tokens == NULL)
 	{
 		errors(3);
