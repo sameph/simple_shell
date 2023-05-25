@@ -1,10 +1,11 @@
 #include "main.h"
+
 /**
 **shell_exit - exits the shell
 **Return: void
 **/
 
-	int shell_exit(void)
-	{
-		return (-1);
-	}
+int shell_exit(void)
+{
+	return (-1);
+}
