@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _path - searches directories in PATH variable for command
+ * _which - searches directories in PATH variable for command
  * @command: to search for
  * @fullpath: full path of command to execute
  * @path: full PATH variable
@@ -49,4 +49,3 @@ char *_path(char *command, char *fullpath, char *path)
 	free(path_copy);
 	return (fullpath);
 }
-
